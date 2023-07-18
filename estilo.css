@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+/* Container principal */
+.container{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+    font-size: 18px;
+}
+p{
+    color: white;
+    margin: 5px;
+}
+a{
+    padding: 5px;
+    width: 60px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px 5px black;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+/* Card 1 */
+.card-1{
+    background-color: red;
+    
+}
+
+/* Card 2 */
+.card-2{
+    background-color: blueviolet;
+}
+
+/* Card 3 */
+.card-3{
+    background-color: greenyellow;
+}
